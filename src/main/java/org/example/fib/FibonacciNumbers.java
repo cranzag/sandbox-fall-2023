@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class FibonacciNumbers {
 
-    private Map<Integer, Long> dictionary = new HashMap<>();
+    private final Map<Integer, Long> dictionary = new HashMap<>();
 
     public static void main(String[] args) {
 
