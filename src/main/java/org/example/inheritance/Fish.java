@@ -2,14 +2,6 @@ package org.example.inheritance;
 
 public class Fish extends Amphibian {
 
-    public Fish(String name) {
-        super(name);
-    }
-
-    public Fish() {
-        super();
-    }
-
     @Override
     public void eat() {
         System.out.println("Fish is eating");
@@ -20,4 +12,18 @@ public class Fish extends Amphibian {
         System.out.println("Fish is making sound");
     }
 
+    @Override
+    public void hunt() {
+
+    }
+
+    @Override
+    public void track() {
+
+    }
+
+    @Override
+    public void socialize() {
+
+    }
 }

@@ -22,5 +22,4 @@ public class Zookeeper {
         System.out.println(animal.getName());
         System.out.println(animal2.getName());
     }
-
 }

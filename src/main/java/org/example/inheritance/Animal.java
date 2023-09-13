@@ -1,15 +1,15 @@
 package org.example.inheritance;
 
-public abstract class Animal implements Huntable, Socializable {
+public abstract class Animal implements Huntable {
 
     private String name;
-
-    public Animal(String name) {
-        this.name = name;
-    }
+    protected boolean breathing;
 
     public Animal() {
+    }
 
+    protected Animal(String name) {
+        this.name = name;
     }
 
     public void eat() {

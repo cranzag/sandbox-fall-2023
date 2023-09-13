@@ -19,4 +19,18 @@ public class Frog extends Amphibian {
         System.out.println("frog makes sound");
     }
 
+    @Override
+    public void hunt() {
+
+    }
+
+    @Override
+    public void track() {
+
+    }
+
+    @Override
+    public void socialize() {
+
+    }
 }
